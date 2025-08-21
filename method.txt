@@ -83,6 +83,10 @@ driver.manage().setSize(dim);
 16. findElement(): find specific object or element location by using given locator 
 
 
+17. findsElement(): multiple element dfind
+
+
+
 
 
 
