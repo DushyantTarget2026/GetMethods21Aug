@@ -1,0 +1,98 @@
+1. get() method 
+-open specific url in browser window, present inside WebDriver interface and return type is void 
+• driver.get("url");
+
+
+2.getTitle()- to capture title of the browser window & present inside WebDriver interface,
+-return tyep String 
+• driver.getTitle();
+
+3.getCurrentUrl()- to capture the url from broser window 
+-present inside WebDriver interface 
+-return type String 
+• String a= driver.getCurrentUrl();
+
+4.navigate().to() -used to navigate One url to another url 
+-present inside navigation interface 
+-return type vooid
+• driver.navigate().to("url");
+
+• navigate() present inside WebDrievr  interface 
+-return type navigation iterface 
+• to()- Present navigatipon interface 
+- return type void
+
+5. Navigate().back() 
+-itll navigate back to single back window 
+-Back meothod present inside navigation interface 
+-return type is void 
+
+• driver.navigate().back();
+6. navigate().forward()- used to navigate single window forward 
+-forward present insede navigation interface
+-return type is void 
+driver.navigate().forward();
+
+7.navigate().refresh() - refresh the browser 
+-refresh present inside Navigation interface 
+-rerturn type is void 
+
+8.Maximize()- Used to maximize the screen window of the browser
+-present inside Window interface 
+- return type is void 
+• driver.manage().window().maximize();
+
+9.minimize()- Used to minimize the opened window of the browser 
+- present inside Window Intrerface 
+- return type is void 
+• driver.manage().window().mminimize();
+
+10.fullscreen() - used to open a browser window in fullscreen mode
+- present iniside Window interface
+- return type is void 
+• driver.manage().winodw().fullscreen();
+
+11. newWindow()- it is used to new open tab or Window 
+- present inside TargetLocator interface 
+- retrun type is void Webdriver interface 
+A. new TAB
+• driver.switchTo().newWindow(WindowType.TAB);
+B. new Winodw 
+• driver.switchTo().newWindow(WindowType.WINDOW);
+
+12.close()- used to close focused window 
+-present inside WebDIrver interface and return type is void 
+• driver.close();
+
+13.quit()- it will close all the opened window
+- present inside WebDRievr interface 
+- return type is void
+
+14. incognito mode 
+
+• ChromeOptions chromeoptions= new ChromeOptions();
+• chromeoptions.addArgumnets("--incognito");
+• WebDriver driver = new ChromeDriver(chromeoptions);
+
+
+15. Change browser dimension 
+Dimension dim = new Dimension(500,700);
+driver.manage().setSize(dim);
+
+
+16. findElement(): find specific object or element location by using given locator 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
